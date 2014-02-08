@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/exit_layout" android:background="@drawable/exit_dialog_bg" android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ff333333" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/exit_btn_value" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_horizontal" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/exit_dialog_value" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_marginBottom="8.0dip">
+        <Button android:textSize="16.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/exitBtn0" android:background="@drawable/btn_exit" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/exit_yes" android:onClick="exitbtnyes" />
+        <Button android:textSize="16.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/exitBtn1" android:background="@drawable/btn_exit" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/exit_no" android:onClick="exitbtnno" />
+    </LinearLayout>
+</LinearLayout>

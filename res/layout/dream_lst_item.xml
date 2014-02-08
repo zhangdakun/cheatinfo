@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dream_item_layout" android:background="#00000000" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dreamlist_line" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/dreamlist_item_info_layout" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginRight="0.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/text_c1" android:id="@id/dream_grp_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/log" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="60.0dip" android:src="@drawable/image_list_open_item" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

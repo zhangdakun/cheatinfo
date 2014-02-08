@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">骗术常识</string>
+    <string name="exit_btn_value">退出</string>
+    <string name="exit_dialog_value">"
+确定要退出？"</string>
+    <string name="exit_yes">是</string>
+    <string name="exit_no">否</string>
+    <string name="nonet">没有可用的网络,请检查网络连接</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="soft_update_no">已经是最新版本</string>
+</resources>

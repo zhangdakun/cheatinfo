@@ -1,0 +1,51 @@
+# view AndroidManifest.xml #generated:48
+-keep class com.bcc.ds.net.DwService { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.bcc.ds.net.OpenReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.bcc.ds.net.OpenService { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.bcc.ds.ui.DSWV { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.xhanhan.comm.ExitActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.xhanhan.comm.LogoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.xhanhan.fpzs.DreamInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.xhanhan.fpzs.FPLstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.xhanhan.fpzs.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class net.youmi.android.AdBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class net.youmi.android.AdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class net.youmi.android.AdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class net.youmi.android.SmartBannerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class net.youmi.android.SmartBannerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class net.youmi.android.offers.OffersReceiver { <init>(...); }
+
+# onClick res/layout/exit_dialog.xml #generated:8
+-keepclassmembers class * { *** exitbtnno(...); }
+
+# onClick res/layout/exit_dialog.xml #generated:7
+-keepclassmembers class * { *** exitbtnyes(...); }
+

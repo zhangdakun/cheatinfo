@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="dream_item_layout">false</item>
+    <item type="id" name="dreamlist_line">false</item>
+    <item type="id" name="dreamlist_item_info_layout">false</item>
+    <item type="id" name="dream_grp_name">false</item>
+    <item type="id" name="dreaminfo_layout">false</item>
+    <item type="id" name="dreaminfo_info_layout">false</item>
+    <item type="id" name="dream_info_title">false</item>
+    <item type="id" name="dream_info_txt">false</item>
+    <item type="id" name="dream_info_back_layout">false</item>
+    <item type="id" name="dream_info_back">false</item>
+    <item type="id" name="exit_layout">false</item>
+    <item type="id" name="exitBtn0">false</item>
+    <item type="id" name="exitBtn1">false</item>
+    <item type="id" name="dream_list">false</item>
+    <item type="id" name="dream_lst_back_layout">false</item>
+    <item type="id" name="dream_lst_back">false</item>
+    <item type="id" name="relativeLayout1">false</item>
+    <item type="id" name="btn1">false</item>
+    <item type="id" name="btn2">false</item>
+    <item type="id" name="btn3">false</item>
+    <item type="id" name="btn4">false</item>
+    <item type="id" name="btn5">false</item>
+    <item type="id" name="btn6">false</item>
+    <item type="id" name="btn7">false</item>
+    <item type="id" name="update_progress">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="back_btn">false</item>
+</resources>

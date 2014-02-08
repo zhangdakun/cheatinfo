@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b1"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" >
+    </LinearLayout>
+    <include layout="@layout/title" />
+
+    <ListView
+        android:id="@id/dream_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:cacheColorHint="#00000000"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/fp_list_select" />
+
+    <LinearLayout
+        android:id="@id/dream_lst_back_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip" >
+
+        <ImageButton
+            android:id="@id/dream_lst_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/recover" />
+    </LinearLayout>
+
+</LinearLayout>
